@@ -190,6 +190,6 @@ def main():
         if restart.lower() != 'yes':
             break
 
-
+#Start of the code is here and it calls the main method.
 if __name__ == "__main__":
 	main()
