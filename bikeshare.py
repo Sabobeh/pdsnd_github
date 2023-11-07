@@ -163,6 +163,7 @@ def user_stats(df, city):
 
 
 def main():
+    """This is the main method where the code starts."""
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
